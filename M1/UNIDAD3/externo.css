@@ -1,0 +1,14 @@
+li {
+    color: orange;
+    line-height: 05;
+
+}
+h2{
+    text-align: center;
+    background-color: gray;
+    text-transform: uppercase;
+}
+.destacados {
+    color: rosybrown;
+    font-size: 22px;
+}
