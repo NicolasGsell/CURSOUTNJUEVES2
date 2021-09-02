@@ -4,9 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Introduccion a mi pagina</title>
+    <link rel="stylesheet" href="ejercicio1.css">
 </head>
 <body>
-    
+    <h2>prueba de programa</h2>
+    <div class="cuadrado">
+    </div>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt voluptatem perferendis distinctio dolores dolore voluptates soluta rem non iure, modi enim nam delectus aliquid facilis, ratione expedita necessitatibus minima id.</p>
+    <p>
+
+            <button class="boton" id="rojo">Rojo</button>
+            &nbsp;
+            <button class="boton" id="celeste">Celeste</button>
+            &nbsp;
+            <button class="boton" id="gris">Gris</button>
+            &nbsp; 
+     </p>
+     <script>
+        var cuadrado=document.getElementsByClassName('cuadrado')[0];
+        var rojo=document.getElementById('rojo');
+        var celeste=document.getElementById('celeste');
+        var gris=document.getElementById('gris');
+
+        rojo.addEventListener('click', function(){
+            cuadrado.classList.add('rojo');
+        });
+        celeste.addEventListener('click', function(){
+            cuadrado.classList.add('celeste');
+        });
+        gris.addEventListener('click', function(){
+            cuadrado.classList.add('gris');
+        });
+     </script>
+
 </body>
 </html>
