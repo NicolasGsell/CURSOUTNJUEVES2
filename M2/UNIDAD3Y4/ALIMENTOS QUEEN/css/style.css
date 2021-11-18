@@ -76,3 +76,18 @@ inicio testimonios
     text-align: center;
     padding: 50px 20px;
 }
+
+.carousel-control-prev-icon:after,
+.carousel-control-next-icon:after{
+    font-family: "FontAwesome";
+    font-size: 30px;
+    color: #000;
+}
+.carousel-indicators li{
+    background-color: #000;
+}
+.staff {
+    background: #efefef;
+}
+
+
